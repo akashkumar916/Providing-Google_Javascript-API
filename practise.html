@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<script>
+window.onscroll=function(){
+a()};
+function a(){
+if(document.body.scrollBottom>20)
+{
+document.getElementById("w").style.top="0px"}
+}
+
+
+</script>
+<style>
+body{
+scrollable:hidden;
+}
+.d{
+	position:relative;
+	left:400px;
+	top:-200px;
+	height:80px;
+	right:50px;
+}
+	.contact{float:right;
+		font-family:sans;
+font-style:bold;
+border-radius:50px;
+font-weight:bold;
+font-size:30px;
+		padding:10px;
+		border:0px;
+		color:blue;
+		background-color:skyblue;
+		}
+
+
+ul li{margin-left:10px;
+margin-right:30px;
+	padding:10px;
+	padding-right:50px;
+	
+	text-align:center;
+	border-right:1px solid white;
+	display:inline;
+}
+	
+	
+ul li a{color:black;
+font-family:sans-serif;
+font-style:bold;
+font-weight:bold;
+
+font-size:30px;
+	text-decoration:none;
+	display:inline;
+	}
+.e{
+width:500px;
+height:500px;
+align:center;
+border:none;
+position:fixed;
+
+
+
+}
+button{line-style:none;
+display:block;
+color:white;
+position:relative;
+left:-50px;
+border-bottom:black
+width:100px;
+background-color:black;
+text-decoration:none;
+padding:30px 30px 15px;;
+font-size:20px;
+font-weight:800;
+list-style-type:none;
+border-radius:25px;
+
+}
+button:hover{
+position:relative;
+left:0px;
+box-shadow:5px 5px grey;
+background-color:red;
+transition:1s;
+}
+.auto{
+position:absolute;
+overflow:auto;
+width:500px;
+top:250px;
+text-align:center;
+height:40px;
+background-color:grey;
+}
+.auto a{
+
+ display:inline-block;
+ font-size:30px;
+ color:white;
+padding:14px;
+text-align:center;
+text-decoration:none;
+}
+
+.auto a:hover{
+background-color:blue;
+}
+</style>
+
+</head>
+<body>
+
+<div class="e" >
+<button>slide 1</button>
+<button>slide 1</button>
+<button>slide 1</button>
+</div>
+<div class="auto">
+
+<a href="" >home</a>
+<a href="" >home</a>
+<a href="" >home</a>
+</div>
+
+<div class="d" id="w">
+<ul class="rt">
+<li><a href="">home</a></li>
+<li><a href="">About Us</a></li>
+<li><a href="">Pages</a></li>
+</ul>
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
